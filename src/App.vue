@@ -112,4 +112,12 @@ body{
   }
 
 }
+
+@media only screen and (max-width: 600px) {
+  #app {
+     grid-template-areas: "head"
+  "sidebar" "main";
+  }
+}
+
 </style>
