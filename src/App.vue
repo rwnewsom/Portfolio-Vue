@@ -13,7 +13,7 @@
             <router-link to="/">Home</router-link> 
           </li>
           <li>
-            <router-link to="/aboutme">About</router-link>
+            <router-link to="/aboutme">About Me</router-link>
           </li>
           <li>
             <router-link to="/aboutvue">Vue Resources</router-link>
