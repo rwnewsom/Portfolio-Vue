@@ -12,7 +12,7 @@
     <h4>*that have cover art available on a public API</h4>
     <my-books />
 
-      </div>
+    </div>
    
   </div>
 </template>
@@ -33,5 +33,10 @@
 a {
   font-weight: bold;
   color: #4A4E69;
+ }
+
+ @media only screen and (max-width: 600px) {
+
+
  }
 </style>
