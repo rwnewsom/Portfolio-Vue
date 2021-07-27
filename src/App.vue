@@ -10,13 +10,13 @@
       <nav id="nav">
         <ul>
           <li>
-            <router-link to="/">Home</router-link> 
+            <router-link v-bind:to="{name: 'Home'}">Home</router-link> 
           </li>
           <li>
-            <router-link to="/aboutme">About Me</router-link>
+            <router-link v-bind:to="{name: 'AboutMe'}">About Me</router-link>
           </li>
           <li>
-            <router-link to="/aboutvue">Vue Resources</router-link>
+            <router-link v-bind:to="{name: 'AboutVue'}">Vue Resources</router-link>
           </li>
         </ul>
       </nav>
@@ -118,6 +118,29 @@ body{
      grid-template-areas: "head"
   "sidebar" "main";
   }
+
+#app > header {
+  grid-area: head;
+  background-color: $accentDark;
+  height: 2.5rem;
+  color: $light;
+  font-size: 150%;
+  padding: 0.5rem 0;
+  width: 100vw;
+}
+
+#app > aside {
+  grid-area: sidebar;
+  background-color: $dark;
+  color: $light;
+  width: 100vw; 
+}
+
+#app > main {
+  grid-area: main;
+  width: 100vw;
+}
+
 }
 
 </style>

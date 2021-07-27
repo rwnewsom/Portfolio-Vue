@@ -28,3 +28,10 @@
 }
 
 </script>
+
+<style>
+a {
+  font-weight: bold;
+  color: #4A4E69;
+ }
+</style>
