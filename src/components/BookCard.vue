@@ -33,7 +33,8 @@ export default {
     width: 250px;
     height: 500px;
     margin: 20px;
-    
+    background-color: #F2E9E4;
+    color: #4A4E69;    
 }
 
 .card.read {
