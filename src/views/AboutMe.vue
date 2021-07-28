@@ -3,8 +3,8 @@
     <h1>About Me</h1>
     <div class="mylinks">
       <ul>
-      <li>Feel free to connect to me on my <font-awesome-icon :icon="['fab', 'linkedin']"/> <a href="https://www.linkedin.com/in/rwnewsom/" target="_blank" rel="noopener">LinkedIn Profile</a></li>
-      <li>You can view the code for this site in my Portfolio-Vue repo at <font-awesome-icon :icon="['fab', 'github']"/> <a href="https://github.com/rwnewsom" target="_blank" rel="noopener">Github</a></li>      
+      <li>Feel free to view my <font-awesome-icon :icon="['fab', 'linkedin']"/> <a href="https://www.linkedin.com/in/rwnewsom/" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+      <li>Examine the code for this site in my Portfolio-Vue repo at <font-awesome-icon :icon="['fab', 'github']"/> <a href="https://github.com/rwnewsom" target="_blank" rel="noopener">Github</a></li>      
     </ul>
       </div>
 
@@ -54,5 +54,6 @@ a {
     padding: 10px 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 </style>
