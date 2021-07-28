@@ -3,12 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCss3, faHtml5, faVuejs as faViers, faGithub, faJs, faBootstrap, faFontAwesomeAlt } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faHtml5, faVuejs as faViers, faGithub, faJs, faBootstrap, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faSpinner, faMicrochip, faRunning, faVial, faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faSpinner, faMicrochip, faRunning, faVial, faDatabase )
-library.add(faHtml5, faCss3, faViers, faGithub, faJs, faBootstrap, faFontAwesomeAlt )
+library.add(faHtml5, faCss3, faViers, faGithub, faJs, faBootstrap, faLinkedin )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

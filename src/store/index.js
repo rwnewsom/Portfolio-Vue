@@ -70,7 +70,7 @@ export default new Vuex.Store({
         title: "The Boer War",
         author: "Thomas Pakenham",
         isbn: "9780349104669",
-        details: "Truly a prelude to World War I.  Additionally a must read for serious students of insurgency / counter insurgency warfare."
+        details: "Technologically I believe this war a prelude to World War I.  Additionally a must read for serious students of insurgency / counter insurgency warfare."
       },
       {
         title: "Cryptonomicon",
