@@ -40,7 +40,7 @@ export default new Vuex.Store({
         title: "The Black Swan",
         author: "Nassim Nicholas Taleb",
         isbn: "9780812973815",
-        details: "Ultimately this books asks a question that I frequently ponder... How, from what I have observed in the past and know of the world, can I predict that which I haven't experienced yet?"
+        details: "... how, from what I have observed in the past and know of the world, can I predict that which I haven't experienced yet?"
       },
       {
         title: "Antifragile",
@@ -52,7 +52,7 @@ export default new Vuex.Store({
         title: "The Perfect War",
         author: "James William Gibson",
         isbn: "0871137992",
-        details: "A mentor one told me 'You tell me how I will be measured, and I'll tell you how I will perform.' This book provides harrowing and damning examples of that aphorism."
+        details: "A mentor once told me 'You tell me how I will be measured, and I'll tell you how I will perform.' This book provides harrowing and damning examples of that aphorism."
       },
       {
         title: "Scientific Management In Action",
@@ -70,7 +70,7 @@ export default new Vuex.Store({
         title: "The Boer War",
         author: "Thomas Pakenham",
         isbn: "9780349104669",
-        details: "Technologically I believe this war a prelude to World War I.  Additionally a must read for serious students of insurgency / counter insurgency warfare."
+        details: "A must read for serious students of insurgency / counter insurgency warfare."
       },
       {
         title: "Cryptonomicon",
