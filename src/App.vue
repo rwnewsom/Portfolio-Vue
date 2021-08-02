@@ -16,6 +16,9 @@
             <router-link v-bind:to="{name: 'AboutMe'}">About Me</router-link>
           </li>
           <li>
+            <router-link v-bind:to="{name: 'Gallery'}">Travel Gallery</router-link>
+          </li>
+          <li>
             <router-link v-bind:to="{name: 'AboutVue'}">Vue Resources</router-link>
           </li>
         </ul>
@@ -31,11 +34,13 @@
 
 <style lang="scss">
 
-$dark: #22223B;
-$accentDark: #4A4E69;
-$background: #9A8C98;
-$attention: #C9ADA7;
-$light: #F2E9E4;
+
+
+@import "./styles/colors.scss";
+
+// Import the bootstrap styles. If you want to override Bootstrap colors, it needs to happen above this line
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 html {
   background-color: $background;

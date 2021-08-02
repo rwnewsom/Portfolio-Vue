@@ -11,10 +11,12 @@
     <div class="hobbies">
           <h1>Some of My Hobbies</h1>
     
-      <h2><font-awesome-icon icon="running" /> I enjoy running in the <a href="https://www.armytenmiler.com/" target="_blank" rel="noopener">Army Ten-miler.</a></h2>
+      <h2><font-awesome-icon icon="running" /> I enjoy running in the <a href="https://www.armytenmiler.com/" target="_blank" rel="noopener">Army Ten-miler</a></h2>
+
+      <h2><font-awesome-icon icon="suitcase" /> My work often provides opportunities to <router-link v-bind:to="{name: 'Gallery'}">travel</router-link></h2>
     
 
-    <h2> I try to read when time is available. Here are a few books from my library*: </h2>
+    <h2><font-awesome-icon icon="book-reader" /> I try to read when time is available. Here are a few books from my library*: </h2>
     <h4>*that have cover art available on a public API</h4>
     <my-books />
 
@@ -48,6 +50,8 @@ a {
 
  .mylinks {
   padding-top: 10px;
+  text-align: left;
+  
 }
 
 .mylinks ul li{
@@ -55,5 +59,10 @@ a {
     list-style: none;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.hobbies h2 {
+  text-align: left;
+  padding-left: 1rem;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
 <div >
   <div class="welcome">
-  <h2 >Welcome to my web site.  Please note it remains under construction!</h2>
-  <h4>A partial list of technologies I work with is below, I look forward to improving my expertise in these domains as well as learning new ones. </h4>
+    <h2 >Welcome to my web site.  Please note it remains under construction!</h2>
+    <h4>A partial list of technologies I work with is below, I look forward to improving my expertise in these domains as well as learning new ones. </h4>
   </div>
  <skill-list />
 </div>  

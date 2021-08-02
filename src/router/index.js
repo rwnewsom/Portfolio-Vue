@@ -5,6 +5,7 @@ import AboutVue from '../views/AboutVue.vue'
 import AboutMe from '../views/AboutMe.vue'
 import Book from '../views/Book.vue'
 import NotFound from '../views/NotFound.vue'
+import Gallery from '../views/Gallery.vue'
 
 Vue.use(VueRouter)
 
@@ -31,6 +32,11 @@ const routes = [
     path: '/book/:id',
     name: 'book',
     component: Book
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: Gallery
   },
   {
     path: '*',
